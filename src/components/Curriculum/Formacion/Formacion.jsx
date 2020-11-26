@@ -9,9 +9,9 @@ const Formacion = () => {
       ? element.classList.remove("show")
       : element.classList.add("show");
 
-    e.target.attributes.src.nodeValue === "icons/icon_toggle.png"
-      ? (e.target.src = "icons/icon_toggle_up.png")
-      : (e.target.src = "icons/icon_toggle.png");
+    e.target.attributes.src.nodeValue === "icons/icon_toggle.svg"
+      ? (e.target.src = "icons/icon_toggle_up.svg")
+      : (e.target.src = "icons/icon_toggle.svg");
   };
 
   return (
@@ -34,7 +34,7 @@ const Formacion = () => {
                 <img
                   className="icon"
                   onClick={handleClick}
-                  src="icons/icon_toggle.png"
+                  src="icons/icon_toggle.svg"
                   alt=""
                 />
                 <div className="description">
