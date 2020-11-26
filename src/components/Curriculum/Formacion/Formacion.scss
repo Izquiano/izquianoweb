@@ -1,0 +1,53 @@
+.formacion-container {
+  .central {
+    margin: 0 auto;
+    max-width: var(--max-width);
+    text-align: left;
+    padding: 20px 50px;
+    h2 {
+      margin-bottom: 30px;
+    }
+    .item {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .text {
+        h3 {
+          color: var(--azul-oscuro2);
+        }
+        h4 {
+          color: var(--azul-claro);
+          font-size: 0.8rem;
+        }
+      }
+      .icon {
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .description {
+        margin-top: 20px;
+        width: 100%;
+        color: var(--gris);
+        overflow: hidden;
+        height: 0;
+        transition: height 0.5s ease-in-out;
+        span {
+          margin-bottom: 10px;
+          display: block;
+          font-style: italic;
+        }
+        p {
+          font-size: 0.9rem;
+        }
+      }
+      .description.show {
+        height: 120px;
+
+        transition: height 0.5s ease-in-out;
+      }
+    }
+  }
+}

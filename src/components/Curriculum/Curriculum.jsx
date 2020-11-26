@@ -1,5 +1,6 @@
 import React from "react";
 import Experiencia from "./Experiencia/Experiencia";
+import Formacion from "./Formacion/Formacion";
 import Header from "./Header/Header";
 import PersonalData from "./PersonalData/PersonalData";
 
@@ -8,8 +9,8 @@ const Curriculum = (props) => {
     <div className="curriculum-container">
       <Header />
       <PersonalData />
-
       <Experiencia />
+      <Formacion />
     </div>
   );
 };

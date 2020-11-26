@@ -81,3 +81,21 @@ export const experiencia = [
   },
 
 ];
+
+
+export const formacion = [
+  {
+    title: "Full Stack Web Developer",
+    company: "Ironhack",
+    date: "04/2020 - 11/2020",
+    location: "Madrid",
+    materias: "Javascript, ES6, MongoDB, Express, React, Node.js, HTML5, CSS3"
+      
+  },
+  {
+    title: "Gráfica Publicitaria",
+    company: "Escuela de Arte de Cádiz",
+    location: "Cádiz",
+          
+  },
+]
