@@ -96,4 +96,4 @@ export const formacion = [
 export const habilidadesProgramacion = ["Node.js", "React", "Javascript", "APIs", "HTML5", "ES6", "CSS3", "Express", "Handlebars", "MongoDB" ];
 export const habilidadesDiseño = ["Photoshop", "Illustrator", "Indesign", "AdobeXD", "After Effects", "Cinema 4D", "Procreate" ];
 
-export const intereses = ["Programación", "Tecnología", "Javascript", "Aprender", "Bicicleta", "React", "React Native", "Surf" ];
+export const intereses = ["Programación", "Tecnología", "Javascript", "Aprender", "Bicicleta", "React", "React Native", "Surf", "Mecánica" ];
