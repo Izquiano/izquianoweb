@@ -1,7 +1,7 @@
 .header-container {
   background-color: var(--azul-oscuro1);
   .central {
-    max-width: 1000px;
+    max-width: var(--max-width);
     margin: 0 auto;
     display: flex;
     // flex-wrap: wrap;

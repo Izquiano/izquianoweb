@@ -1,27 +1,25 @@
-.personal-data-container{
-  
-  
+.personal-data-container {
   background-color: var(--azul-oscuro2);
   color: white;
   text-align: left;
-  
-  .center{
+
+  .center {
     display: flex;
-    max-width: 1000px;
+    max-width: var(--max-width);
     margin: 0 auto;
     padding: 20px 50px;
 
-    .col{
+    .col {
       width: 50%;
-      .item{
+      .item {
         display: flex;
         margin-bottom: 10px;
         align-items: center;
-        .icon{
+        .icon {
           width: 25px;
           margin-right: 10px;
         }
-        a{
+        a {
           color: white;
           text-decoration: none;
         }
