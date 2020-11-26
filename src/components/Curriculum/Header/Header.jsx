@@ -14,7 +14,7 @@ const Header = () => {
           <p>
             <b>Diseñador y Full Stack Web Developer</b> {"=>"} Javascript, ES6,
             MongoDB, Express, React, Node.js, HTML5, CSS3 | Photoshop,
-            Illustrator, InDesign, Adobe Xd
+            Illustrator, InDesign, AdobeXD
           </p>
           
           

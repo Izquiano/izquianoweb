@@ -35,7 +35,6 @@ export const experiencia = [
         cargo: "Ilustrador",
         description: " Procreate, Ink, watercolors, Photoshop, Illustrator",
       },
-     
     ],
   },
   {
@@ -47,13 +46,13 @@ export const experiencia = [
     ocupation: [
       {
         cargo: "SECA",
-        description: "Diseñador en la Sociedad Española de Calidad Asistencial. Madrid",
+        description:
+          "Diseñador en la Sociedad Española de Calidad Asistencial. Madrid",
       },
       {
         cargo: "SADECA",
         description: "Diseñador de Congresos. Sociedad Andaluza de Calidad",
       },
-     
     ],
   },
   {
@@ -75,13 +74,9 @@ export const experiencia = [
         cargo: "Curso InDesign",
         description: "Text",
       },
-     
-     
     ],
   },
-
 ];
-
 
 export const formacion = [
   {
@@ -89,13 +84,14 @@ export const formacion = [
     company: "Ironhack",
     date: "04/2020 - 11/2020",
     location: "Madrid",
-    materias: "Javascript, ES6, MongoDB, Express, React, Node.js, HTML5, CSS3"
-      
+    materias: "Javascript, ES6, MongoDB, Express, React, Node.js, HTML5, CSS3",
   },
   {
     title: "Gráfica Publicitaria",
     company: "Escuela de Arte de Cádiz",
     location: "Cádiz",
-          
   },
-]
+];
+
+export const habilidadesProgramacion = ["Node.js", "React", "Javascript", "APIs", "HTML5", "ES6", "CSS3", "Express", "Handlebars", "MongoDB" ];
+export const habilidadesDiseño = ["Photoshop", "Illustrator", "Indesign", "AdobeXD", "After Effects", "Cinema 4D", "Procreate" ];
