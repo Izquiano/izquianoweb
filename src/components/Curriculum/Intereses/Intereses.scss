@@ -1,0 +1,22 @@
+.intereses-container {
+  .central {
+    margin: 0 auto;
+    max-width: var(--max-width);
+    text-align: left;
+    padding: 20px 50px;
+    h2 {
+      margin-bottom: 30px;
+    }
+    .item {
+      display: inline-block;
+      padding: 5px 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid var(--azul-oscuro1);
+      color: var(--azul-oscuro1);
+      font-size: 0.8rem;
+    }
+    
+  }
+}

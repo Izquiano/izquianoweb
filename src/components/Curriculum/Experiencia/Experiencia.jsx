@@ -35,7 +35,7 @@ const Experiencia = () => {
               alt=""
             />
             <div className="description">
-              <span>Desempeño</span>
+              {/* <span>Desempeño</span> */}
               {el.ocupation.map((ocupation) => (
                 <p key={ocupation.cargo}>
                   <b>{ocupation.cargo}.</b>
