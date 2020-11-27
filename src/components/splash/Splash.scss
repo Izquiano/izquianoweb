@@ -1,0 +1,49 @@
+.splash-container{
+  background-color: var(--azul-oscuro1);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  h1{
+    margin-bottom: 20px;
+  }
+  h3{
+    margin-bottom: 20px;
+  }
+  p{
+    margin-bottom: 10px;
+  }
+  span{
+    display: block;
+    margin-bottom: 20px;
+  }
+  button{
+    padding: 5px 10px;
+    background-color: var(--azul-claro);
+    color: var(--azul-oscuro1);
+    border: none;
+    border-radius: 5px;
+  }
+
+}
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .splash-container {
+    animation: nombre 2s ;
+    animation-iteration-count: 1;
+  }
+}
+
+@keyframes nombre {
+  from {
+    opacity:0
+  }
+  to {
+    opacity:1
+  }
+}

@@ -1,22 +1,34 @@
-import React, { useState, useEffect } from "react";
-import { Link, Redirect } from "react-router-dom";
-import PropTypes from "prop-types";
+import React, { useState } from "react";
+import { Redirect } from "react-router-dom";
 
-import "./Splash.css";
+
+import "./Splash.scss";
 
 const Splash = () => {
-  const [time, setTime] = useState(0);
+  const [redirect, setRedirect] = useState(false);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setTime(1);
-    }, 5000);
-  }, []);
+  const handleClick = () => {
+        setRedirect(true)
+  };
 
-
+  
+if( redirect ){
+  
+ return <Redirect to="/curriculum" />
+}
   return (
     <div className="splash-container">
-      <h1>Splash</h1>
+      <div className="central">
+        <h1>Hola!</h1>
+        <h3>Bienvenidos a mi web</h3>
+        <p>
+          Aquí os enseñaré mi trayectoria, mis trabajos y algunos proyectos en
+          los que he trabajado tanto personal como profesionalmente.
+        </p>
+
+        <span>Pulsa en siguente para entrar</span>
+        <button onClick={handleClick}>Siguiente</button>
+      </div>
     </div>
   );
 };
