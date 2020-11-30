@@ -8,8 +8,8 @@ const PersonalData = () => {
         <div className="col">
           <div className="item">
             <img className="icon" src="/images/icons/icon_mail.svg" alt="" />
-            <a href="mailto:izquiano@hotmail.com?Subject=Hemos visto tu currículum">
-              izquiano@hotmail.com
+            <a href="mailto:daniel@izquiano.es?Subject=Hemos visto tu currículum">
+            daniel@izquiano.es
             </a>
           </div>
           <div className="item">

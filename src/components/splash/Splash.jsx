@@ -14,7 +14,7 @@ const Splash = () => {
   
 if( redirect ){
   
- return <Redirect to="/curriculum" />
+ return <Redirect to="/home" />
 }
   return (
     <div className="splash-container">
