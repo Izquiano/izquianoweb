@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Redirect } from "react-router-dom";
+import Footer from "../Footer/Footer";
 
 import "./Splash.scss";
 
@@ -24,6 +25,7 @@ const Splash = () => {
 
         <button onClick={handleClick}>Siguiente</button>
       </div>
+      <Footer />
     </div>
   );
 };

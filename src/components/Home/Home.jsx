@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Menu from "../Menu/Menu";
 import "./Home.scss";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   const heigth = window.innerHeight - 44;
@@ -28,6 +29,7 @@ const Home = () => {
             </div>
           </Link>
         </div>
+        <Footer />
       </div>
     </>
   );

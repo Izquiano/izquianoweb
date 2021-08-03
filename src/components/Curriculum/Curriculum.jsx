@@ -10,7 +10,7 @@ import PersonalData from "./PersonalData/PersonalData";
 
 const Curriculum = (props) => {
   return (
-    <div className="curriculum-container">
+    <div className='curriculum-container'>
       <Menu />
       <Header />
       <PersonalData />
