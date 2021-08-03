@@ -15,13 +15,13 @@ const Formacion = () => {
   };
 
   return (
-    <div className="formacion-container">
-      <div className="central">
-        <h2>Formacion</h2>
+    <div className='formacion-container'>
+      <div className='central'>
+        <h2>Formación</h2>
 
         {formacion.map((el) => (
-          <div className="item" key={el.company}>
-            <div className="text">
+          <div className='item' key={el.company}>
+            <div className='text'>
               <h3>{el.company}</h3>
               <h4>{el.date}</h4>
               <div>
@@ -32,12 +32,12 @@ const Formacion = () => {
             {el.materias ? (
               <>
                 <img
-                  className="icon"
+                  className='icon'
                   onClick={handleClick}
-                  src="./images/icons/icon_toggle.svg"
-                  alt=""
+                  src='./images/icons/icon_toggle.svg'
+                  alt=''
                 />
-                <div className="description">
+                <div className='description'>
                   <span>Desempeño</span>
 
                   <p>

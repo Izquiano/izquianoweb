@@ -1,3 +1,9 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /wordpress/
+Disallow: /static/
+Disallow: /promisingwomen
+Disallow: /js
+Disallow: /jornadas-primavera
+Disallow: /img
+Disallow: /emilio

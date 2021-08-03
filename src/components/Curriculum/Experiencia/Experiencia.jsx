@@ -15,31 +15,32 @@ const Experiencia = () => {
   };
 
   return (
-    <div className="experiencia-container">
-      <div className="central">
+    <div className='experiencia-container'>
+      <div className='central'>
         <h2>Experiencia</h2>
 
         {experiencia.map((el) => (
-          <div className="item" key={el.title}>
-            <div className="text">
+          <div className='item' key={el.title}>
+            <div className='text'>
               <h3>{el.title}</h3>
               <h4>{el.date}</h4>
               <div>
-                <span>{el.location}</span>
+                <span>
+                  <b>{el.company}</b> · {el.location}
+                </span>
               </div>
             </div>
             <img
-              className="icon"
+              className='icon'
               onClick={handleClick}
-              src="./images/icons/icon_toggle.svg"
-              alt=""
+              src='./images/icons/icon_toggle.svg'
+              alt=''
             />
-            <div className="description">
+            <div className='description'>
               {/* <span>Desempeño</span> */}
               {el.ocupation.map((ocupation) => (
                 <p key={ocupation.cargo}>
-                  <b>{ocupation.cargo}.</b>
-                  {ocupation.description}.
+                  <b>{ocupation.cargo}.</b> {ocupation.description}.
                 </p>
               ))}
             </div>
